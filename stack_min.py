@@ -1,5 +1,6 @@
 class Stack():
-    """ build a stack that will show you the most current minum value in stack"""
+    """ build a stack that will show you the most current minum value in stack
+    """
 
     def __init__(self):
         self._stack = []
@@ -52,7 +53,3 @@ print(myNewStack.min_value())
 myNewStack.pop()
 print(myNewStack.min_value())
 
-if __name__='__main__':
-    import doctest
-    if doctest.testmod().failed == 0:
-        print("passed all tests! Booya!!")
